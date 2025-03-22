@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header.hero {
+    background-color: #697DAA;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #697DAA;
+  }
+  
+  .project {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid #697DAA;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  .skills-list li {
+    background-color: #e0e7ff;
+    padding: 40px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skills-list li[class^="devicon-"] {
+    font-size: 4rem;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+    font-size: 0.9rem;
+  }
+  
+  .navbar {
+    background-color: #1f2937; /* dark navy */
+    padding: 15px 30px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+
+  .navbar-links li a {
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: #6b7280; /* gray */
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .navbar-links li a:hover {
+    background-color: #697DAA; /* gray */
+  }
